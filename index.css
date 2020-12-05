@@ -1,0 +1,212 @@
+:root {
+    --line: #E5E5E5;
+    --text: #000;
+    /* --bg: #acaaaa; */
+    --bg: #FFFFFF;
+}
+
+html,
+body {
+    background: var(--bg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 2px solid #E5E5E5;
+    margin-top: 3.5rem;
+}
+
+.font-text,
+h1 {
+    font-size: 0.8rem;
+    text-align: center;
+    background: #000;
+    margin-top: 0;
+    color: #808080;
+    padding: 0.1rem 0 0.1rem 0;
+    letter-spacing: 1px;
+}
+
+.font-text {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* navigation */
+
+.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.flex-item {
+    align-self: center;
+    list-style: none;
+}
+
+.flex-item a {
+    text-decoration: none;
+    color: var(--text);
+    font-size: 12px;
+}
+
+.flex-item a:hover {
+    border-bottom: 2px solid var(--line);
+}
+
+.search-bar {
+    text-align: end;
+    padding: 0.3rem 0.6rem;
+    outline: none;
+    background: #f8f6f6;
+    border: 1px solid #fff;
+}
+
+.search-icon {
+    position: absolute;
+    top: 3.7rem;
+    color: #00000054;
+}
+
+
+/* ends navigation */
+
+.image-container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.arrow-left {
+    color: #fff;
+    font-size: 3rem;
+    position: absolute;
+    left: 10rem;
+    top: 23rem;
+}
+
+.arrow-right {
+    color: #fff;
+    right: 10rem;
+    top: 23rem;
+    position: absolute;
+    font-size: 3rem;
+}
+
+.images img {
+    margin-left: 2.6rem;
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(60% - 2.6rem);
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.center-text p {
+    text-align: center;
+    text-justify: distribute-all-lines;
+    text-indent: 80px;
+}
+
+.cross-line {
+    border-bottom: 2px solid #E5E5E5;
+    /* margin-top: -1rem; */
+    align-items: center;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
+    margin: -1rem 7.5rem 0 7.5rem;
+}
+
+.nav-container-1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+/* images flex */
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 20vh;
+    align-items: center;
+}
+
+.boxes {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: space-between;
+    margin-top: 1rem;
+}
+
+.items-1 {
+    margin: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: stretch;
+}
+
+.items-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: stretch;
+    margin-top: 0.3rem;
+}
+
+.title-text {
+    margin-top: -1rem;
+}
+
+.title-link {
+    text-align: center;
+}
+
+.view-link {
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 0.3rem;
+    color: #444;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    border-width: 2px;
+    margin-top: 0.5rem;
+}
+
+.view-link:hover {
+    background: rgba(106, 201, 157, 1.00);
+}
